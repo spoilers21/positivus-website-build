@@ -12,9 +12,12 @@ export default function Placeholder() {
               Page Coming Soon
             </h1>
             <p className="text-xl text-foreground/70 mb-8">
-              This page is currently under development. Keep an eye on your inbox
-              for updates, or{" "}
-              <a href="/" className="text-primary font-semibold hover:underline">
+              This page is currently under development. Keep an eye on your
+              inbox for updates, or{" "}
+              <a
+                href="/"
+                className="text-primary font-semibold hover:underline"
+              >
                 return to the homepage
               </a>{" "}
               to explore more.

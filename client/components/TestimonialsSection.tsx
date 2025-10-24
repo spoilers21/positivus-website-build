@@ -26,13 +26,13 @@ export default function TestimonialsSection() {
 
   const goToPrevious = () => {
     setActiveIndex((prevIndex) =>
-      prevIndex === 0 ? testimonials.length - 1 : prevIndex - 1
+      prevIndex === 0 ? testimonials.length - 1 : prevIndex - 1,
     );
   };
 
   const goToNext = () => {
     setActiveIndex((prevIndex) =>
-      prevIndex === testimonials.length - 1 ? 0 : prevIndex + 1
+      prevIndex === testimonials.length - 1 ? 0 : prevIndex + 1,
     );
   };
 
@@ -65,7 +65,9 @@ export default function TestimonialsSection() {
                   key={index}
                   onClick={() => setActiveIndex(index)}
                   className={`w-3 h-3 rounded-full transition-all ${
-                    index === activeIndex ? "bg-primary w-8" : "bg-background/30"
+                    index === activeIndex
+                      ? "bg-primary w-8"
+                      : "bg-background/30"
                   }`}
                   aria-label={`Go to testimonial ${index + 1}`}
                 />
