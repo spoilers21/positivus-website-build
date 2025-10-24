@@ -45,14 +45,14 @@ export default function TeamSection() {
           Team
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {teamMembers.map((member, index) => (
             <div
               key={index}
-              className="p-8 bg-secondary rounded-2xl border-2 border-foreground hover:shadow-lg transition-shadow"
+              className="p-6 md:p-8 bg-secondary rounded-xl border-2 border-foreground hover:shadow-lg transition-shadow"
             >
-              <div className="w-16 h-16 bg-primary rounded-full mb-6 flex items-center justify-center">
-                <span className="text-2xl font-bold text-primary-foreground">
+              <div className="w-14 h-14 bg-primary rounded-full mb-4 flex items-center justify-center">
+                <span className="text-xl font-bold text-primary-foreground">
                   {member.name.charAt(0)}
                 </span>
               </div>
