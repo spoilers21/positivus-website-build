@@ -6,7 +6,7 @@ export default function Header() {
 
   return (
     <header className="bg-background sticky top-0 z-50 border-b border-border">
-      <nav className="container-max section-padding py-6 flex items-center justify-between">
+      <nav className="container-max flex items-center justify-between px-4 md:px-8 py-6">
         <Link to="/" className="text-3xl font-bold text-foreground">
           Positivus
         </Link>
