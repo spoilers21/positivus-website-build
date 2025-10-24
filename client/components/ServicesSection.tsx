@@ -49,7 +49,7 @@ export default function ServicesSection() {
           {services.map((service, index) => (
             <div
               key={index}
-              className={`p-12 rounded-3xl flex flex-col justify-between min-h-96 ${
+              className={`p-8 md:p-12 rounded-2xl flex flex-col justify-between min-h-80 ${
                 service.bgPrimary
                   ? "bg-primary text-primary-foreground"
                   : "bg-foreground text-background"
