@@ -68,7 +68,7 @@ export default function ContactSection() {
                   required
                 />
               </div>
-              <button type="submit" className="btn-primary w-full text-black">
+              <button type="submit" className="px-8 py-4 bg-black text-black font-semibold rounded-xl hover:opacity-90 transition-opacity w-full">
                 Send Message
               </button>
             </form>
