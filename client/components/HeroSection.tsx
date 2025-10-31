@@ -14,22 +14,17 @@ export default function HeroSection() {
             </p>
             <button className="btn-primary">Book a consultation</button>
           </div>
-          <div className="flex items-center justify-center">
-            <div className="w-full max-w-md aspect-square bg-primary/10 rounded-2xl flex items-center justify-center">
-              <svg
-                className="w-32 h-32 text-primary"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={1.5}
-                  d="M13 10V3L4 14h7v7l9-11h-7z"
-                />
-              </svg>
-            </div>
+          <div
+            style={{
+              margin: '0 auto',
+              width: '600.46px',
+              height: '515px',
+              flex: 'none',
+              order: 1,
+              flexGrow: 0,
+            }}
+          >
+            {/* Illustration */}
           </div>
         </div>
       </div>
