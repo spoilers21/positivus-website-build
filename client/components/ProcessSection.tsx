@@ -51,10 +51,7 @@ export default function ProcessSection() {
 
         <div className="space-y-4">
           {steps.map((step, index) => (
-            <div
-              key={index}
-              className="rounded-2xl overflow-hidden"
-            >
+            <div key={index} className="rounded-2xl overflow-hidden">
               <button
                 onClick={() =>
                   setExpandedStep(expandedStep === index ? null : index)
