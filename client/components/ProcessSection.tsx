@@ -53,7 +53,7 @@ export default function ProcessSection() {
           {steps.map((step, index) => (
             <div
               key={index}
-              className="border-2 border-foreground rounded-2xl overflow-hidden"
+              className="overflow-hidden"
             >
               <button
                 onClick={() =>
