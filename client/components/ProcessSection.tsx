@@ -59,10 +59,10 @@ export default function ProcessSection() {
                 onClick={() =>
                   setExpandedStep(expandedStep === index ? null : index)
                 }
-                className="w-full p-6 md:p-8 flex items-center justify-between hover:bg-secondary transition-colors"
+                className="w-full p-6 md:p-8 flex items-center justify-between bg-lime-500/10 hover:bg-lime-500/20 border border-lime-400 rounded-2xl transition-all duration-300 ease-in-out"
               >
                 <div className="flex items-center gap-6 text-left">
-                  <span className="text-3xl font-bold text-primary min-w-fit">
+                  <span className="text-3xl font-bold text-lime-500 min-w-fit">
                     {step.number}
                   </span>
                   <h3 className="text-xl md:text-2xl font-bold text-foreground">
@@ -70,7 +70,7 @@ export default function ProcessSection() {
                   </h3>
                 </div>
                 <span
-                  className={`text-3xl font-bold text-primary transition-transform ${
+                  className={`text-3xl font-bold text-lime-500 transition-transform duration-300 ${
                     expandedStep === index ? "rotate-45" : ""
                   }`}
                 >
