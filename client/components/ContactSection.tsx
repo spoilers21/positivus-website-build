@@ -68,7 +68,7 @@ export default function ContactSection() {
                   required
                 />
               </div>
-              <button type="submit" className="btn-primary w-full">
+              <button type="submit" className="btn-primary w-full text-black">
                 Send Message
               </button>
             </form>
