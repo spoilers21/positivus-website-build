@@ -79,7 +79,7 @@ export default function ProcessSection() {
               </button>
 
               {expandedStep === index && (
-                <div className="px-6 md:px-8 pb-6 md:pb-8 border-t border-foreground bg-secondary">
+                <div className="px-6 md:px-8 pb-6 md:pb-8 bg-lime-500/5 rounded-b-2xl">
                   <p className="text-foreground/80 leading-relaxed">
                     {step.description}
                   </p>
